@@ -38,7 +38,7 @@ const defaultCluster = {
     mode:        'shared',
     agents:      0,
     persistence: {
-      storageRequestSize: '1G', type: 'dynamic', storageClassName: 'local-path'
+      storageRequestSize: '2G', type: 'dynamic'
     },
     servers: 1,
   }
